@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Heading {
+    height: 13vh;
+    background-color: #1F2632;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.game-Box {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.box {
+    height: 23vmin;
+    width: 23vmin;
+    border: none;
+    border-radius: 50%;
+}
+.box:hover{
+    border: 0.35rem solid #1C1C1C;
+    cursor: pointer;
+}
+#rock {
+    background-image: url(rock.png);
+    background-size: cover;
+    background-position-x: center;
+}
+#paper {
+    background-image: url(paper.png);
+    background-size: cover;
+    background-position-x: center;
+}
+#scissor {
+    background-image: url(scissors.png);
+    background-size: cover;
+    background-position-x: center;
+}
+.score-board{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+}
+.scores {
+    text-align: center;
+}
+.display-score{
+    font-size: 3rem;
+}
+.user {
+    font-size: 2rem;
+}
+.button-container{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-msg {
+    height: 10vmin;
+    width: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #1F2632;
+    border: none;
+    border-radius: 10px;
+}
+
