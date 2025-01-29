@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<div class="card">
+    <div class="search-bar">
+        <input type="text" class="searchbar" placeholder="Enter City Name">
+        <button><img src="search.png" alt=""></button>
+    </div>
+    <div class="error-msg">
+        <p>Enter Valid Country/City Name!</p>
+    </div>
     
+    <div class="weather">
+        <img src="clear.png" class="weather-img" alt="weather icon">
+    </div>
+    <div class="temprature">
+        <h1 class="temp-value">22°C</h1>
+        <p class="city">Pakistan</p>
+    </div>
+    <div class="reports">
+        <div class="humidity report-heading">
+            <img src="humidity.png" class="report-image" alt="">
+            <div class="humidity-values report-values">
+                <p id="humidity-up" class="text-up">56%</p>
+                <p id="humidity-down" class="text-down"></p>Humidity</p>
+            </div>
+        </div>        
+        <div class="wind-speed report-heading">
+            <img src="wind.png" class="report-image" alt="">
+            <div class="wind-values report-values">
+                <p id="wind-up" class="text-up">5.66 km/h</p>
+                <p id="wind-up" class="text-down">Wind Speed</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+<body>
 </body>
 </html>
